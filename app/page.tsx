@@ -5,8 +5,8 @@ export default function Page() {
     <section className="hero">
       <div className="hero-text">
         <div className="hero-text-inner">
-          <h1 className="hero-title">Mark Tao</h1>
-          <p className="hero-subtitle">Welcome to my journey</p>
+          <h1 className="hero-title"></h1>
+          <p className="hero-subtitle">My name is Mark, and I'm a consultant based in NYC.</p>
         </div>
       </div>
 
