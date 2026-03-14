@@ -86,25 +86,25 @@ a {
 }
 
 .hero {
-  min-height: calc(100vh - 120px);
-  max-width: 1600px;
+  min-height: calc(100vh - 160px);
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 56px;
+  padding: 24px 56px 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .hero-text {
-  width: 35%;
+  width: 33.3333%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  padding-right: 28px;
 }
 
 .hero-text-inner {
-  max-width: 420px;
-  transform: translateY(-40px);
+  width: 100%;
+  max-width: 360px;
 }
 
 .hero-title {
@@ -112,21 +112,22 @@ a {
   font-size: clamp(3rem, 6vw, 5rem);
   line-height: 0.95;
   font-weight: 600;
-  color: var(--text);
+  color: #d8e4ff;
 }
 
 .hero-subtitle {
   margin: 0;
   font-size: clamp(1.2rem, 2vw, 1.7rem);
   line-height: 1.45;
-  color: var(--muted);
+  color: #9fb3d9;
 }
 
 .hero-visual {
-  width: 65%;
+  width: 66.6667%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-end; /* pushes hologram right */
+  padding-left: 400px;       /* adjust this number if needed */
 }
 
 .footer {
@@ -193,7 +194,7 @@ a {
     justify-content: center;
   }
 
-  .hero {
+ .hero {
     padding: 24px;
     flex-direction: column;
     gap: 24px;
@@ -212,6 +213,7 @@ a {
 
   .hero-text-inner {
     max-width: none;
+    transform: none;
   }
 
   .subpage {

@@ -4,7 +4,7 @@ export default function FooterSocials() {
       <div className="footer-inner">
         <a
           className="social-link"
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/mark-tao1"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -16,7 +16,7 @@ export default function FooterSocials() {
 
         <a
           className="social-link"
-          href="https://github.com/marktao23/mark-tao"
+          href="https://github.com/marktao23"
           target="_blank"
           rel="noreferrer"
           aria-label="GitHub"
@@ -28,7 +28,7 @@ export default function FooterSocials() {
 
         <a
           className="social-link"
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/marksoatmeal"
           target="_blank"
           rel="noreferrer"
           aria-label="Instagram"
@@ -40,7 +40,7 @@ export default function FooterSocials() {
 
         <a
           className="social-link"
-          href="mailto:mark@example.com"
+          href="marktao1@outlook.com"
           aria-label="Email"
         >
           <svg viewBox="0 0 24 24" className="social-icon" fill="currentColor">

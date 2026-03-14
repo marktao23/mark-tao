@@ -155,8 +155,8 @@ function HoloPlane() {
 
 export default function FaceHologram() {
   return (
-    <div style={{ width: "100%", height: "850px" }}>
-      <Canvas camera={{ position: [0, 0, 2.2], fov: 45 }}>
+    <div style={{ width: "100%", height: "600px" }}>
+      <Canvas camera={{ position: [0, 0, 1.5], fov: 45 }}>
         <ambientLight intensity={0.6} />
         <HoloPlane />
       </Canvas>
